@@ -7,7 +7,8 @@
     "dev": "vite serve ./src",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "pages": "gh-pages -d dist"
+    "pages": "gh-pages -d dist",
+    "lint": "eslint --ext .ts --ignore-path .gitignore --fix src"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
