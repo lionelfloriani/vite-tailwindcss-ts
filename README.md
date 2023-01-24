@@ -16,5 +16,5 @@ Note : you can run `git remote -v` to list the configured remote repositories.
 
 `npm run dev` - Open a local server. Automatically refreshed.<br>
 `npm run build` - Compile the project in the folder `/dist`.<br> 
-`npm run pages` - Deploys the content of the `/dist` folder on GitHub Pages.<br>  
+`npm run pages` - Deploys the content of the `/dist` folder on GitHub Pages.<br>
 `npm run prettier <file>` - Format the code according the rules set in `.prettierrc.json`.
