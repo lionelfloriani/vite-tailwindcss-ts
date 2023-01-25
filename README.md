@@ -17,7 +17,9 @@ Note: you can run `git remote -v` to list the configured remote repositories and
 - `npm run dev` - starts a local development server with hot-reloading.
 - `npm run build` - compiles the project and output in the /dist folder.
 - `npm run pages` - deploys the content of the /dist folder to GitHub Pages.
-- `npm run prettier <file>` - formats the code according to the rules set in .prettierrc.json.
+- `npm run prettier <file>` - formats the file according to the rules set in .prettierrc.json.
+- `npm run prettier:all` - formats all the files according to the rules set in .prettierrc.json.
+- `npm run prettier:check` - checks if all the files are respecting the rules set in .prettierrc.json.
 
 Note: The script npm run prettier should be followed by the file name you want to format, otherwise it won't work.
 
